@@ -1,0 +1,172 @@
+html{
+    font-family: "Open Sans",sans-serif;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+box-sizing:border-box ;
+}
+/*NAVBAR*/
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+   background:#3d688f;
+   border-radius: 4px;  
+}
+/*HOME SECTİON*/
+#home img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 100%;
+    
+   
+}
+#home h2{
+    letter-spacing: 1px;
+}
+#home{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-bottom:0.5px solid grey ;
+}
+#home .name p{
+    font-style: italic;
+    opacity: 0.4;
+    margin-bottom: 0.4rem;
+    letter-spacing: 2px;
+}
+
+/* #home .name a{
+    background-color:#3d688f;
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 8px;
+    letter-spacing: 3px;
+}
+#home .name a:hover{
+background-color: #8aa3b9;
+}     BUNU GLOBAL DE .btn olarak tanımladık... */
+#training{
+
+  
+    margin-bottom: 3rem;
+ padding: 3rem;
+    color: #fff;
+    align-items: center;
+}
+#training .items{
+    margin-top: 0.5rem;
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#training .item{
+width: 33%;
+padding: 0.5rem;
+text-align: center;
+letter-spacing: 1px;
+}
+#training .item:hover{
+    background-color: #3d688f;
+}
+#courses{
+    color:#333;
+    padding: 1rem;
+    
+   
+}
+#course .courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+   
+}
+#courses .courses .course{
+    
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#courses .courses .course .course-image{
+    margin: 0.5rem;
+    position: relative;
+    justify-content: left;
+    width: 45%;
+    padding: 1rem;
+    
+    
+}
+#courses .courses .course .course-image img{
+    border-radius: 10px;
+    max-width: 450px;
+    height: auto;
+    position: relative;   
+}
+#courses .courses .course .course-image span{
+    background: red;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: absolute;
+    top: 21px;
+    left:18px;
+
+}
+#courses .courses .course .course-image .course-info .title{
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   margin-bottom: 15px;
+}
+#courses .courses .course .course-image .course-info .description{
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+#courses .courses .course .course-image:hover{
+   background-color: #8a97a3;
+   
+}
+#contact{
+    color: #fff;
+    padding: 1rem;
+  
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: 1rem ;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form .form-group textarea{
+    width: 300px;
+    height:100px;
+    resize:none;
+
+}
